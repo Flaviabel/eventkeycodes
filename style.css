@@ -1,0 +1,35 @@
+body{
+    background-color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.key{
+    display: inline-flex;
+    margin: 10px;
+    position: relative;
+    background-color: #EEEEEE;
+    border: 1px solid #999999;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Muli, sans-serif;
+}
+
+#insert{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.activo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
